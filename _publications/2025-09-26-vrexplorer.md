@@ -3,10 +3,10 @@ title: "VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual
 collection: publications
 category: conferences
 permalink: /publication/2025-09-26-vrexplorer
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
+excerpt: "VRExplorer is a model-based tool for semi-automated testing of VR scenes, using the EAT framework to handle diverse interactions and probabilistic exploration, achieving higher coverage and efficiency than state-of-the-art methods."
 date: 2025-09-26
 venue: 'the 40th IEEE/ACM Automated Software Engineering Conference (ASE 2025) '
-paperurl: 'https://github.com/TsingPig/VRExplorer/blob/main/Artifacts/VRExplorer__A_Model_based_Approach_for_Semi-Automated_Testing_of_Virtual_Reality_Scenes.pdf'
+paperurl: 'https://tsingpig.github.io/files/VRExplorer__A_Model_based_Approach_for_Semi-Automated_Testing_of_Virtual_Reality_Scenes.pdf'
 citation: 'ASE 25'
 ---
 
