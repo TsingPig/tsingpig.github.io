@@ -7,7 +7,7 @@ excerpt: "VRExplorer is a model-based tool for semi-automated testing of VR scen
 date: 2025-09-26
 venue: 'the 40th IEEE/ACM Automated Software Engineering Conference (ASE 2025) '
 paperurl: 'https://tsingpig.github.io/files/VRExplorer__A_Model_based_Approach_for_Semi-Automated_Testing_of_Virtual_Reality_Scenes.pdf'
-citation: 'citation: 'Zhengyang Zhu, Hong-Ning Dai, Hanyang Guo, Zeqin Liao, Zibin Zheng. &quot;VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual Reality Scenes.&quot; (ASE 2025).''
+citation: 'Zhengyang Zhu, Hong-Ning Dai, Hanyang Guo, Zeqin Liao, Zibin Zheng. &quot;VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual Reality Scenes.&quot; <i>ASE 2025</i>.'
 ---
 
 With the proliferation of Virtual Reality (VR) markets, VR applications are rapidly expanding in scale and complexity, thereby driving an urgent need for assuring VR software quality. Different from traditional mobile applications and computer software, VR testing faces unique challenges due to diverse interactions with virtual objects, complex 3D virtual environments, and intricate sequences to complete tasks. All of these emerging challenges hinder existing VR testing tools from effectively and systematically testing VR applications.
