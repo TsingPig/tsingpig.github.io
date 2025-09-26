@@ -1,25 +1,4 @@
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
-      <!-- 标题 -->
-      <h3 class="archive__item-title" itemprop="headline">
-        {{ post.title }}
-      </h3>
-
-      <!-- 作者 -->
-      {% if post.authors %}
-      <p class="archive__item-authors" itemprop="author">
-        {{ post.authors }}.
-      </p>
-      {% endif %}
-
-      <!-- 期刊/会议 + 月份年份 + 等级 -->
-      {% if post.journal %}
-      <p class="archive__item-journal" itemprop="publication">
-        {{ post.journal }}, {{ post.month }} {{ post.year }}. {% if post.rank %}[{{ post.rank }}]{% endif %}
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
-      </p>
-      {% endif %}
-    </li>
-  </article>
-</div>
+<p class="archive__item-full">
+  <strong>{{ post.authors | split: "," | first }}</strong>{% assign rest_authors = post.authors | remove: post.authors | split: "," %}, {{ post.authors | remove_first_author }}. 
+  {{ post.journal }}, {{ post.month }} {{ post.year }}. {% if post.rank %}[{{ post.rank }}]{% endif %} {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+</p>
