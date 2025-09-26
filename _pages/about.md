@@ -22,12 +22,6 @@ For those users that need more advanced functionality, the template also support
 - [Mermaid](https://mermaid.js.org/) for diagraming
 - [Plotly](https://plotly.com/javascript/) for plotting
 
-
-
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
