@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images1/photos/with_zxw.jpg'>"
+title: "Photo with Xiaowen Zhang"
+excerpt: "A photo with my girlfriend Xiaowen Zhang<br/><img src='/images/photos/with_zxw.jpg'>"
 collection: portfolio
 ---
 
