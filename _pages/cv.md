@@ -11,54 +11,17 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- 09/2025 – present, Ph.D, School of Software Engineering, Sun Yat-sen University, Zhuhai, China
+- 09/2021 – 06/2025, Bachelor, School of Computer Science, Nanjing Normal University, Nanjing, China
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+# Work Experience
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- 03/2025 – 04/2025, Python Algorithm Lecturer, [Baoyandao](https://www.baoyandao.com/), Online
+- 07/2024 – 08/2024, Research Intern (Computer Graphics), School of Informatics, [Xiamen University](https://www.xmu.edu.cn/), Xiamen, China
+- 07/2023 – 08/2023, Unity Client Developer Intern, NetEase Games, [Leihuo Studio Group](https://leihuo.163.com/,) Fuxi Metaverse Lab (Yaotai), Hangzhou, China
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
