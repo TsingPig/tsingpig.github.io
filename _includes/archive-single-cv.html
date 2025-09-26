@@ -1,10 +1,6 @@
-<!-- 标题（可点击跳转） -->
-<h3 class="archive__item-title" itemprop="headline">
-  <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
-</h3>
-
-<!-- 作者 + 期刊/会议 + 日期 + 等级 + PDF -->
 <p class="archive__item-full">
-  <strong>{{ post.authors | split: "," | first }}</strong>{% assign rest_authors = post.authors | remove_first_author %}{{ rest_authors }}. 
-  {{ post.journal }}, {{ post.month }} {{ post.year }}.{% if post.rank %} [{{ post.rank }}]{% endif %} {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+  <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a> 
+  {{ post.authors }}. 
+  {{ post.journal }}, {{ post.month }} {{ post.year }}.{% if post.rank %} [{{ post.rank }}]{% endif %} 
+  {% if post.paperurl %}<a href="{{ post.paperurl }}"> [PDF]</a>{% endif %}
 </p>
