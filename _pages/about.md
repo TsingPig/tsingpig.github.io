@@ -24,8 +24,6 @@ For those users that need more advanced functionality, the template also support
 
 
 
-{% include_relative file.md %}
-
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
