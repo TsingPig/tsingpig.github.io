@@ -1,7 +1,12 @@
 ---
-title: "[Aug. 9, 2025] Photo with Xiaowen Zhang"
-excerpt: "This is a photo with my girlfriend, Xiaowen Zhang. We met on July 9th, 2025, in Xuzhou, and immediately fell in love. I love her deeply, even though distance sometimes separates us. My goal is that after I finish my Ph.D., I will marry her, buy a big house, share every meal together, and take walks every night.<br/><img src='/images/photos/with_zxw.png'>"
+title: "[Jun 1, 2024] Photo with Algorithm Team"
+excerpt: "This photo was taken with my algorithm coach (Qiong wang) and team members (Ji Runmin, Yang Dayu, etc.).  <br/><img src='/images/photos/with_wq_jrm.png'>"
 collection: portfolio
 ---
 
-This is a photo with my **girlfriend** , Xiaowen Zhang, taken on Aug. 9, 2025. We met on July 9, 2025, in Xuzhou, and immediately fell in love. I love her deeply, even though distance sometimes separates us. My goal is that after I finish my Ph.D., I will marry her, buy a big house, share every meal together, and take walks every night.
+This photo was taken with my algorithm coach (Qiong wang) and team members (Ji Runmin, Yang Dayu, etc.) when i was still studying in Nanjing Normal University.  
+
+We achieved:  
+- 2nd Prize (National) in the Python Group, 15th [LanQiao Cup National Programming Contest](https://dasai.lanqiao.cn/), Jun 2024  
+- 1st Prize (Provincial), Apr. 2024
+
