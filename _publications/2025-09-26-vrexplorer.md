@@ -2,7 +2,7 @@
 title: "VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual Reality Scenes"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2025-09-26-vrexplorer
 excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2025-09-26
 venue: 'the 40th IEEE/ACM Automated Software Engineering Conference (ASE 2025) '
