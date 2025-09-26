@@ -3,10 +3,12 @@ title: "VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual
 collection: publications
 category: conferences
 permalink: /publication/2025-09-26-vrexplorer
+authors: '**Zhengyang Zhu**, Hong-Ning Dai, Hanyang Guo, Zeqin Liao, Zibin Zheng'
 excerpt: "VRExplorer is a model-based tool for semi-automated testing of VR scenes, using the EAT framework to handle diverse interactions and probabilistic exploration, achieving higher coverage and efficiency than state-of-the-art methods."
 date: 2025-09-26
-journal: "IEEE/ACM Automated Software Engineering Conference (ASE)"
+journal: 'IEEE/ACM Automated Software Engineering Conference (ASE)'
 year: 2025
+month: November
 rank: "CCF-A"
 venue: 'the 40th IEEE/ACM Automated Software Engineering Conference (ASE 2025) '
 paperurl: 'https://tsingpig.github.io/files/VRExplorer__A_Model_based_Approach_for_Semi-Automated_Testing_of_Virtual_Reality_Scenes.pdf'
