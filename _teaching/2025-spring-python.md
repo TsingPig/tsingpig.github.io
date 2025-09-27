@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-spring-python
 venue: "Baoyandao, Python Group"
-date: 2025-03
+date: 2025-03-01
 location: "Nanjing, China"
 ---
 
