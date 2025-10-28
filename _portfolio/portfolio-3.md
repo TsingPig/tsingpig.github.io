@@ -1,6 +1,6 @@
 ---
 title: "[Jun 1, 2024] Photo with Algorithm Team"
-data: 2024-06-01
+date: 2024-06-01
 excerpt: "This photo was taken with my algorithm coach (Qiong wang) and team members (Ji Runmin, Yang Dayu, etc.).  <br/><img src='/images/photos/with_wq_jrm.png'>"
 collection: portfolio
 ---
