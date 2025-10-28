@@ -7,6 +7,7 @@ I am looking forward to working with them on exciting research projects in the f
 collection: portfolio
 ---
 
-This is the first photo with my supervisor, Prof. Zibin Zheng, 
-and other group members after I joined the inpluslab on Aug. 2024. 
+This is the first photo with my supervisor, Prof. Zibin Zheng, and other group members after I joined the inpluslab on Aug. 2024. 
+
 I am looking forward to working with them on exciting research projects in the future.
+
