@@ -1,5 +1,6 @@
 ---
 title: "[October 16, 2025] Wuhan Traveling SnapShots"
+date: 2025-10-16
 excerpt: "This photo was taken by my GirlFriend, Xiaowen Zhang in Hankou Reverside Park. We travelled to Wuhan, China from October 13th to 20th.   <br/><img src='/images/photos/wuhan.png'>"
 collection: portfolio
 ---
