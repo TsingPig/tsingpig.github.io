@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "generatedon": "2025-11-12T02:04:33Z",
+    "parser": "MultiReportParser (2x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 4,
+    "files": 4,
+    "coveredlines": 235,
+    "uncoveredlines": 113,
+    "coverablelines": 348,
+    "totallines": 735,
+    "linecoverage": 67.5,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 53,
+    "totalmethods": 62,
+    "methodcoverage": 85.4
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Test", "classes": 4, "coverage": 67.5, "coveredlines": 235, "coverablelines": 348, "totallines": 735, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 85.4, "coveredmethods": 53, "totalmethods": 62, "classesinassembly": [
+        { "name": "XRButton", "coverage": 74.7, "coveredlines": 65, "coverablelines": 87, "totallines": 187, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 86.6, "coveredmethods": 13, "totalmethods": 15 },
+        { "name": "XRJoystick", "coverage": 44.8, "coveredlines": 56, "coverablelines": 125, "totallines": 213, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 72.2, "coveredmethods": 13, "totalmethods": 18 },
+        { "name": "XRKnob", "coverage": 83.5, "coveredlines": 56, "coverablelines": 67, "totallines": 173, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 93.3, "coveredmethods": 14, "totalmethods": 15 },
+        { "name": "XRLever", "coverage": 84, "coveredlines": 58, "coverablelines": 69, "totallines": 162, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 92.8, "coveredmethods": 13, "totalmethods": 14 } ] } ]
+  }
+}
