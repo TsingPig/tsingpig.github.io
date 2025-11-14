@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>2025/11/14 - 13:56:30</Generatedon>
+    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>12</Classes>
+    <Files>12</Files>
+    <Coveredlines>317</Coveredlines>
+    <Uncoveredlines>169</Uncoveredlines>
+    <Coverablelines>486</Coverablelines>
+    <Totallines>1071</Totallines>
+    <Linecoverage>65.2</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>42</Coveredmethods>
+    <Totalmethods>62</Totalmethods>
+    <Methodcoverage>67.7</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Test" classes="12" coverage="65.2" coveredlines="317" coverablelines="486" totallines="1071" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="42" totalmethods="62" methodcoverage="67.7">
+      <Class name="DynamicMeshCutter.KnifePlaneBehaviour" coverage="4.1" coveredlines="1" coverablelines="24" totallines="48" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
+      <Class name="FoodItem" coverage="100" coveredlines="99" coverablelines="99" totallines="165" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="8" methodcoverage="100" />
+      <Class name="KnifeBehaviour" coverage="38.3" coveredlines="28" coverablelines="73" totallines="146" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="11" methodcoverage="54.5" />
+      <Class name="MusicManager" coverage="73.6" coveredlines="14" coverablelines="19" totallines="63" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="NutritionScaleBehaviour" coverage="50" coveredlines="26" coverablelines="52" totallines="117" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="4" methodcoverage="50" />
+      <Class name="OffsetInteractable" coverage="44.4" coveredlines="12" coverablelines="27" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="5" methodcoverage="40" />
+      <Class name="PotBehaviour" coverage="79.1" coveredlines="76" coverablelines="96" totallines="187" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="8" totalmethods="10" methodcoverage="80" />
+      <Class name="RecipeBaseState" coverage="100" coveredlines="10" coverablelines="10" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="RecipeManager" coverage="90" coveredlines="27" coverablelines="30" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+      <Class name="RecipeState1" coverage="54.5" coveredlines="12" coverablelines="22" totallines="58" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="4" methodcoverage="50" />
+      <Class name="RecipeState2" coverage="0" coveredlines="0" coverablelines="22" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
+      <Class name="UI_FacePlayer" coverage="100" coveredlines="12" coverablelines="12" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
