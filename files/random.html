@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>吃什么？</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    max-width: 420px;
+    margin: auto;
+  }
+
+  button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background: #007aff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button:active {
+    background: #005bbb;
+  }
+
+  #result {
+    margin-top: 20px;
+    padding: 16px;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    font-size: 22px;
+    min-height: 40px;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 15px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>吃什么？</h2>
+
+  <button onclick="pickFood()">点我随机</button>
+
+  <div id="result"></div>
+
+  <textarea id="list">
+炒饭
+披萨
+火锅
+拉面
+汉堡
+烧烤
+寿司
+煲仔饭
+烤肉
+麻辣烫
+  </textarea>
+</div>
+
+<script>
+function pickFood() {
+  const lines = document.getElementById("list").value
+    .split("\n")
+    .map(s => s.trim())
+    .filter(s => s);
+
+  if (lines.length === 0) {
+    document.getElementById("result").textContent = "列表为空";
+    return;
+  }
+
+  const choice = lines[Math.floor(Math.random() * lines.length)];
+  document.getElementById("result").textContent = choice;
+}
+</script>
+
+</body>
+</html>
