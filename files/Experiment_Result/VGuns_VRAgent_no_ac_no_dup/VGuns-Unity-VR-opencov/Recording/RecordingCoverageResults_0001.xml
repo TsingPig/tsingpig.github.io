@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="2" numClasses="2" visitedMethods="2" numMethods="2" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="2" numClasses="2" visitedMethods="2" numMethods="2" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Test</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/AudioManager.cs" />
+        <File uid="2" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/Gun.cs" />
+        <File uid="3" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/Round.cs" />
+        <File uid="4" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/Time/BulletTime.cs" />
+        <File uid="5" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/Time/SpeedUpTime.cs" />
+        <File uid="6" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/Time/TimeManager.cs" />
+        <File uid="7" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/XRTarget.cs" />
+        <File uid="8" fullPath="D:/--UnityProject/VR/_____ISSTA 26/VGuns-Unity-VR/Assets/Test/__Test/EnemyAi.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Gun</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>Gun::Gun()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="32" uspid="402" ordinal="0" offset="0" sl="141" sc="5" el="141" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="32" uspid="403" ordinal="0" offset="7" sl="144" sc="5" el="144" ec="5" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>TimeManager</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>TimeManager::TimeManager()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="14" uspid="462" ordinal="0" offset="0" sl="5" sc="5" el="5" ec="5" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="14" uspid="463" ordinal="0" offset="11" sl="6" sc="5" el="6" ec="5" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="14" uspid="464" ordinal="0" offset="22" sl="8" sc="5" el="8" ec="5" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
