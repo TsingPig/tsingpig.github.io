@@ -224,13 +224,13 @@ var assemblies = [
   {
     "name": "Assembly-CSharp",
     "classes": [
-      { "name": "BallSoundController", "rp": "Assembly_CSharp_BallSoundController.html", "cl": 13, "ucl": 4, "cal": 17, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [76.4], "bch": [], "hc": [{ "et": "2025/12/27 - 11:53:15", "cl": 13, "ucl": 4, "cal": 17, "tl": 33, "lcq": 76.4, "cb": 0, "tb": 0, "bcq": 0 }, { "et": "2025/12/27 - 12:03:51", "cl": 13, "ucl": 4, "cal": 17, "tl": 33, "lcq": 76.4, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "Mirar", "rp": "Assembly_CSharp_Mirar.html", "cl": 9, "ucl": 3, "cal": 12, "tl": 30, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [50,75], "bch": [], "hc": [{ "et": "2025/12/27 - 11:53:15", "cl": 6, "ucl": 6, "cal": 12, "tl": 30, "lcq": 50, "cb": 0, "tb": 0, "bcq": 0 }, { "et": "2025/12/27 - 12:03:51", "cl": 9, "ucl": 3, "cal": 12, "tl": 30, "lcq": 75, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "OtherLaneController", "rp": "Assembly_CSharp_OtherLaneController.html", "cl": 4, "ucl": 14, "cal": 18, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [11.1,22.2], "bch": [], "hc": [{ "et": "2025/12/27 - 11:53:15", "cl": 2, "ucl": 16, "cal": 18, "tl": 38, "lcq": 11.1, "cb": 0, "tb": 0, "bcq": 0 }, { "et": "2025/12/27 - 12:03:51", "cl": 4, "ucl": 14, "cal": 18, "tl": 38, "lcq": 22.2, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "BallSoundController", "rp": "Assembly_CSharp_BallSoundController.html", "cl": 13, "ucl": 4, "cal": 17, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [76.4], "bch": [], "hc": [{ "et": "2025/12/29 - 13:45:37", "cl": 13, "ucl": 4, "cal": 17, "tl": 33, "lcq": 76.4, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Mirar", "rp": "Assembly_CSharp_Mirar.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 30, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "2025/12/29 - 13:45:37", "cl": 12, "ucl": 0, "cal": 12, "tl": 30, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "OtherLaneController", "rp": "Assembly_CSharp_OtherLaneController.html", "cl": 4, "ucl": 14, "cal": 18, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [22.2], "bch": [], "hc": [{ "et": "2025/12/29 - 13:45:37", "cl": 4, "ucl": 14, "cal": 18, "tl": 38, "lcq": 22.2, "cb": 0, "tb": 0, "bcq": 0 }] },
     ]},
 ];
 
-var historicCoverageExecutionTimes = ["2025/12/27 - 11:53:15"];
+var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
 ];

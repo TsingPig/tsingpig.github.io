@@ -1,25 +1,25 @@
 ﻿# Summary
 |||
 |:---|:---|
-| Generated on: | 2025/12/27 - 12:03:52 |
-| Parser: | MultiReportParser (3x OpenCoverParser) |
+| Generated on: | 2025/12/29 - 13:45:38 |
+| Parser: | MultiReportParser (2x OpenCoverParser) |
 | Assemblies: | 1 |
 | Classes: | 3 |
 | Files: | 3 |
-| Covered lines: | 26 |
-| Uncovered lines: | 21 |
+| Covered lines: | 29 |
+| Uncovered lines: | 18 |
 | Coverable lines: | 47 |
 | Total lines: | 101 |
-| Line coverage: | 55.3% (26 of 47) |
+| Line coverage: | 61.7% (29 of 47) |
 | Covered branches: | 0 |
 | Total branches: | 0 |
-| Covered methods: | 8 |
+| Covered methods: | 9 |
 | Total methods: | 10 |
-| Method coverage: | 80% (8 of 10) |
+| Method coverage: | 90% (9 of 10) |
 
 |**Name**|**Covered**|**Uncovered**|**Coverable**|**Total**|**Line coverage**|**Covered**|**Total**|**Branch coverage**|**Covered**|**Total**|**Method coverage**|
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|**Assembly-CSharp**|**26**|**21**|**47**|**101**|**55.3%**|**0**|**0**|****|**8**|**10**|**80%**|
+|**Assembly-CSharp**|**29**|**18**|**47**|**101**|**61.7%**|**0**|**0**|****|**9**|**10**|**90%**|
 |BallSoundController|13|4|17|33|76.4%|0|0||4|4|100%|
-|Mirar|9|3|12|30|75%|0|0||3|4|75%|
+|Mirar|12|0|12|30|100%|0|0||4|4|100%|
 |OtherLaneController|4|14|18|38|22.2%|0|0||1|2|50%|
