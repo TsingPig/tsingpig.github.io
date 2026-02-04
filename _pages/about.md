@@ -46,5 +46,5 @@ Education
 
 - *Algorithm Competitions*: Achieved **LeetCode Contest Rating 2,154 (Top 2.06% nationwide)**; solved **670+ algorithmic problems** on LeetCode. (more: [LeetCode - Zhengyang Zhu](https://leetcode.cn/u/interesting-jacksonurs/) )
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=f1hMf_YNyu4sr7OzlK_xfpqRnaMQseIXVI8N3rh27uU&cl=ffffff&w=a"></script>
+<a href="https://mapmyvisitors.com/web/1c2ay"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=f1hMf_YNyu4sr7OzlK_xfpqRnaMQseIXVI8N3rh27uU&cl=ffffff" /></a>
 
