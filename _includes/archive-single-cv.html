@@ -1,18 +1,23 @@
-<div class="archive__item-cv" style="overflow:auto; margin-bottom:1em;">
+<div class="archive__item-cv pub-card-cv">
   {% if post.header.teaser %}
     {% capture cv_teaser %}{{ post.header.teaser }}{% endcapture %}
-    <div style="float:left; width:140px; margin:0 1em 0.5em 0;">
-      <img src="{% if cv_teaser contains '://' %}{{ cv_teaser }}{% else %}{{ cv_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="" style="width:100%; height:auto; border-radius:4px;">
+    <div class="pub-card-cv__teaser">
+      <a href="{{ base_path }}{{ post.url }}">
+        <img src="{% if cv_teaser contains '://' %}{{ cv_teaser }}{% else %}{{ cv_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title | escape }}">
+      </a>
     </div>
   {% endif %}
-  <p class="archive__item-full" style="margin:0;">
-    <a href="{{ base_path }}{{ post.url }}" rel="permalink"><strong>{{ post.title }}</strong></a><br/>
-    {{ post.authors }}.<br/>
-    <i>{{ post.journal }}</i>, {{ post.month }} {{ post.year }}.{% if post.rank %} <span style="background:#d9534f;color:#fff;padding:1px 6px;border-radius:3px;font-size:0.8em;">{{ post.rank }}</span>{% endif %}
-    {% if post.paperurl %} &nbsp;<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
-    {% if post.slidesurl %} <a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
-    {% if post.bibtexurl %} <a href="{{ post.bibtexurl }}">[BibTeX]</a>{% endif %}
-    {% if post.codeurl %} <a href="{{ post.codeurl }}">[Code]</a>{% endif %}
-    {% if post.videourl %} <a href="{{ post.videourl }}">[Video]</a>{% endif %}
-  </p>
+  <div class="pub-card-cv__body">
+    <p class="archive__item-full" style="margin:0;">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"><strong>{{ post.title }}</strong></a><br/>
+      {{ post.authors }}.<br/>
+      <i>{{ post.journal }}</i>, {{ post.month }} {{ post.year }}.{% if post.rank %} <span style="background:#d9534f;color:#fff;padding:1px 6px;border-radius:3px;font-size:0.8em;">{{ post.rank }}</span>{% endif %}
+      {% if post.paperurl %} &nbsp;<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+      {% if post.slidesurl %} <a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
+      {% if post.bibtexurl %} <a href="{{ post.bibtexurl }}">[BibTeX]</a>{% endif %}
+      {% if post.codeurl %} <a href="{{ post.codeurl }}">[Code]</a>{% endif %}
+      {% if post.videourl %} <a href="{{ post.videourl }}">[Video]</a>{% endif %}
+    </p>
+  </div>
 </div>
+
