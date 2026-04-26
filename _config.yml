@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Zhengyang Zhu / Home Page"
 title_separator          : "-"
 name                     : &name "Zhengyang Zhu"  # Update this with your name, this is the default if not overridden by a page
-description              : &description "Zhengyang Zhu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal academic homepage of Zhengyang Zhu (朱正阳), Ph.D. student at Sun Yat-sen University, researching VR testing, software reliability, LLM4SE, and embodied intelligence."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://tsingpig.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "tsingpig/tsingpig.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zhengyang Zhu"
+  name             : "Zhengyang Zhu (朱正阳)"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student at Sun Yat-sen University"
+  bio              : "Ph.D. Student @ SYSU · VR Testing · LLM4SE · Embodied AI"
   location         : "Zhuhai, China"
   employer         : "Sun Yat-sen University"
   uri              : # URL
-  email            : "tsing@163.com, zhuzhy57@mail2.sysu.edu.cn"
+  email            : "tsingpig@163.com"
 
   # Academic websites
   academia         : # URL
@@ -89,7 +89,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "profile.png" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
