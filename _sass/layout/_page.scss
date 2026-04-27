@@ -2,6 +2,41 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+/* CV Download Button */
+.cv-download-bar {
+  margin-bottom: 1.5em;
+}
+
+/* Print / PDF export styles */
+@media print {
+  .masthead,
+  .sidebar,
+  .page__footer,
+  .page__share,
+  .page__related,
+  .cv-download-bar,
+  nav,
+  #disqus_thread {
+    display: none !important;
+  }
+
+  #main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .archive {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+}
+
 #main {
   @include container;
   @include clearfix;

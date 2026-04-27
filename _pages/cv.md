@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-download-bar">
+  <a href="{{ base_path }}/cv-pdf/?print=1" target="_blank" rel="noopener" class="btn btn--primary">
+    <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download PDF
+  </a>
+  <a href="{{ base_path }}/cv-pdf/" target="_blank" rel="noopener" class="btn btn--inverse" style="margin-left:8px;">
+    <i class="fa fa-eye" aria-hidden="true"></i>&nbsp; Preview
+  </a>
+</div>
+
 Education
 ======
 - 09/2025 – present, Ph.D, School of Software Engineering, Sun Yat-sen University, Zhuhai, China

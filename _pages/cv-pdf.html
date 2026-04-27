@@ -1,0 +1,265 @@
+---
+layout: none
+permalink: /cv-pdf/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ site.author.name }} – CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  @page {
+    size: A4;
+    margin: 14mm 16mm;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #222;
+    font-size: 11pt;
+    line-height: 1.45;
+    background: #fff;
+  }
+  .page-wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 24px 28px;
+  }
+  .toolbar {
+    background: #f4f6f8;
+    border: 1px solid #d8dde2;
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 22px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 10pt;
+    color: #555;
+  }
+  .toolbar button {
+    background: #2a7ae2;
+    color: #fff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: 600;
+  }
+  .toolbar button:hover { background: #1a5fb4; }
+  .toolbar a {
+    color: #2a7ae2;
+    text-decoration: none;
+    margin-left: auto;
+  }
+
+  header.cv-header {
+    border-bottom: 2px solid #2a7ae2;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+  }
+  header.cv-header h1 {
+    margin: 0 0 4px 0;
+    font-size: 22pt;
+    color: #1a1a1a;
+    font-weight: 700;
+  }
+  header.cv-header .subtitle {
+    color: #555;
+    font-size: 10.5pt;
+    margin: 2px 0;
+  }
+  header.cv-header .contact {
+    color: #444;
+    font-size: 10pt;
+    margin-top: 6px;
+  }
+  header.cv-header .contact a {
+    color: #2a7ae2;
+    text-decoration: none;
+    margin-right: 14px;
+  }
+
+  h2.section-title {
+    font-size: 13pt;
+    color: #2a7ae2;
+    border-bottom: 1px solid #d8dde2;
+    padding-bottom: 3px;
+    margin: 18px 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .item {
+    margin-bottom: 9px;
+    page-break-inside: avoid;
+  }
+  .item .row1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .item .role {
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  .item .date {
+    color: #777;
+    font-size: 10pt;
+    white-space: nowrap;
+  }
+  .item .org {
+    color: #444;
+    font-style: italic;
+    font-size: 10.5pt;
+  }
+  .item .desc {
+    margin-top: 3px;
+    color: #333;
+  }
+
+  .pub-item {
+    margin-bottom: 10px;
+    page-break-inside: avoid;
+  }
+  .pub-item .pub-title {
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  .pub-item .pub-authors {
+    color: #444;
+    font-size: 10pt;
+    margin: 2px 0;
+  }
+  .pub-item .pub-venue {
+    color: #555;
+    font-size: 10pt;
+    font-style: italic;
+  }
+  .pub-item .pub-meta {
+    font-size: 9.5pt;
+    color: #777;
+    margin-top: 2px;
+  }
+  .pub-item .pub-rank {
+    display: inline-block;
+    background: #e74c3c;
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 9pt;
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  .pub-item a {
+    color: #2a7ae2;
+    text-decoration: none;
+  }
+
+  @media print {
+    .toolbar { display: none !important; }
+    .page-wrap { max-width: 100%; padding: 0; margin: 0; }
+    a { color: #2a7ae2; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <div class="toolbar">
+    <button onclick="window.print()">🖨️ Save as PDF / Print</button>
+    <span>Use your browser's print dialog → "Save as PDF"</span>
+    <a href="{{ '/cv/' | relative_url }}">← Back to CV</a>
+  </div>
+
+  <header class="cv-header">
+    <h1>{{ site.author.name }}</h1>
+    <div class="subtitle">{{ site.author.bio }}</div>
+    <div class="subtitle">{{ site.author.employer }} · {{ site.author.location }}</div>
+    <div class="contact">
+      {% if site.author.email %}<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>{% endif %}
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>{% endif %}
+      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}
+      <a href="{{ site.url }}">{{ site.url | replace: 'https://', '' }}</a>
+    </div>
+  </header>
+
+  <h2 class="section-title">Education</h2>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">Ph.D., School of Software Engineering</span>
+      <span class="date">09/2025 – present</span>
+    </div>
+    <div class="org">Sun Yat-sen University, Zhuhai, China</div>
+  </div>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">B.Eng., School of Computer Science</span>
+      <span class="date">09/2021 – 06/2025</span>
+    </div>
+    <div class="org">Nanjing Normal University, Nanjing, China</div>
+  </div>
+
+  <h2 class="section-title">Work Experience</h2>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">Python Algorithm Lecturer</span>
+      <span class="date">03/2025 – 04/2025</span>
+    </div>
+    <div class="org"><a href="https://www.baoyandao.com/">Baoyandao</a>, Online</div>
+  </div>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">Research Intern (Computer Graphics)</span>
+      <span class="date">07/2024 – 08/2024</span>
+    </div>
+    <div class="org">School of Informatics, <a href="https://www.xmu.edu.cn/">Xiamen University</a>, Xiamen, China</div>
+  </div>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">Unity Client Developer Intern</span>
+      <span class="date">07/2023 – 08/2023</span>
+    </div>
+    <div class="org">NetEase Games, <a href="https://leihuo.163.com/">Leihuo Studio Group</a> – Fuxi Metaverse Lab (Yaotai), Hangzhou, China</div>
+  </div>
+
+  <h2 class="section-title">Publications</h2>
+
+  {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+  {% for post in sorted_pubs %}
+  <div class="pub-item">
+    <div class="pub-title">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </div>
+    {% if post.authors %}<div class="pub-authors">{{ post.authors }}</div>{% endif %}
+    {% if post.venue %}<div class="pub-venue">{{ post.venue }}</div>{% endif %}
+    <div class="pub-meta">
+      {% if post.rank %}<span class="pub-rank">{{ post.rank }}</span>{% endif %}
+      {% if post.date %}{{ post.date | date: "%B %Y" }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+<script>
+  // Auto-open print dialog if URL has ?print=1
+  if (window.location.search.indexOf('print=1') !== -1) {
+    window.addEventListener('load', function() {
+      setTimeout(function() { window.print(); }, 400);
+    });
+  }
+</script>
+</body>
+</html>
