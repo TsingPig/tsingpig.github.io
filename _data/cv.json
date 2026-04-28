@@ -30,7 +30,26 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Hong Kong Baptist University",
+      "position": "Visiting Student, Department of Computer Science",
+      "website": "https://www.comp.hkbu.edu.hk/",
+      "startDate": "2024-10",
+      "endDate": "",
+      "summary": "Hong Kong, China",
+      "highlights": []
+    },
+    {
+      "company": "Peng Cheng Laboratory",
+      "position": "Joint Ph.D Student",
+      "website": "https://www.pcl.ac.cn/",
+      "startDate": "2025-09",
+      "endDate": "",
+      "summary": "Shenzhen, China",
+      "highlights": []
+    }
+  ],
   "education": [
     {
       "institution": "GitHub University",

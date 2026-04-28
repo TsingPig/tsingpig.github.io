@@ -190,6 +190,23 @@ sitemap: false
     </div>
   </header>
 
+  <h2 class="section-title">Publications</h2>
+
+  {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+  {% for post in sorted_pubs %}
+  <div class="pub-item">
+    <div class="pub-title">
+      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
+    </div>
+    {% if post.authors %}<div class="pub-authors">{{ post.authors }}</div>{% endif %}
+    {% if post.venue %}<div class="pub-venue">{{ post.venue }}</div>{% endif %}
+    <div class="pub-meta">
+      {% if post.rank %}<span class="pub-rank">{{ post.rank }}</span>{% endif %}
+      {% if post.date %}{{ post.date | date: "%B %Y" }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
   <h2 class="section-title">Education</h2>
 
   <div class="item">
@@ -208,7 +225,23 @@ sitemap: false
     <div class="org">Nanjing Normal University, Nanjing, China</div>
   </div>
 
-  <h2 class="section-title">Work Experience</h2>
+  <h2 class="section-title">Experience</h2>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">Visiting Student, Department of Computer Science</span>
+      <span class="date">10/2024 – present</span>
+    </div>
+    <div class="org">Hong Kong Baptist University, Hong Kong, China</div>
+  </div>
+
+  <div class="item">
+    <div class="row1">
+      <span class="role">Joint Ph.D Student</span>
+      <span class="date">09/2025 – present</span>
+    </div>
+    <div class="org">Peng Cheng Laboratory, Shenzhen, China</div>
+  </div>
 
   <div class="item">
     <div class="row1">
@@ -234,22 +267,6 @@ sitemap: false
     <div class="org">NetEase Games, <a href="https://leihuo.163.com/">Leihuo Studio Group</a> – Fuxi Metaverse Lab (Yaotai), Hangzhou, China</div>
   </div>
 
-  <h2 class="section-title">Publications</h2>
-
-  {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-  {% for post in sorted_pubs %}
-  <div class="pub-item">
-    <div class="pub-title">
-      {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
-    </div>
-    {% if post.authors %}<div class="pub-authors">{{ post.authors }}</div>{% endif %}
-    {% if post.venue %}<div class="pub-venue">{{ post.venue }}</div>{% endif %}
-    <div class="pub-meta">
-      {% if post.rank %}<span class="pub-rank">{{ post.rank }}</span>{% endif %}
-      {% if post.date %}{{ post.date | date: "%B %Y" }}{% endif %}
-    </div>
-  </div>
-  {% endfor %}
 
 </div>
 

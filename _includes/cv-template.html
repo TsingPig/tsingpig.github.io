@@ -68,6 +68,34 @@
   </div>
   {% endif %}
   
+  {% if cv.publications.size > 0 %}
+  <!-- Publications -->
+  <div class="cv-section">
+    <h2>Publications</h2>
+    <ul class="cv-list">
+      {% for publication in cv.publications %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ publication.name }}</div>
+          <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
+        </div>
+        <div class="cv-item-content">
+          <div class="cv-item-subtitle">{{ publication.publisher }}</div>
+          {% if publication.summary %}
+          <div class="cv-item-detail">{{ publication.summary }}</div>
+          {% endif %}
+          {% if publication.website %}
+          <div class="cv-item-detail">
+            <a href="{{ publication.website }}" target="_blank">View Publication</a>
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.education.size > 0 %}
   <!-- Education -->
   <div class="cv-section">
@@ -97,9 +125,9 @@
   {% endif %}
   
   {% if cv.work.size > 0 %}
-  <!-- Work Experience -->
+  <!-- Experience -->
   <div class="cv-section">
-    <h2>Work Experience</h2>
+    <h2>Experience</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
       <li class="cv-item">
@@ -142,34 +170,6 @@
       </div>
       {% endfor %}
     </div>
-  </div>
-  {% endif %}
-  
-  {% if cv.publications.size > 0 %}
-  <!-- Publications -->
-  <div class="cv-section">
-    <h2>Publications</h2>
-    <ul class="cv-list">
-      {% for publication in cv.publications %}
-      <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ publication.name }}</div>
-          <div class="cv-item-date">{{ publication.releaseDate | slice: 0, 4 }}</div>
-        </div>
-        <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ publication.publisher }}</div>
-          {% if publication.summary %}
-          <div class="cv-item-detail">{{ publication.summary }}</div>
-          {% endif %}
-          {% if publication.website %}
-          <div class="cv-item-detail">
-            <a href="{{ publication.website }}" target="_blank">View Publication</a>
-          </div>
-          {% endif %}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
   </div>
   {% endif %}
   

@@ -116,43 +116,48 @@
   }
 }
 
-/* Publication card: flex layout with large teaser on the left */
+/* Publication card: image on top, text below */
 .archive__item--pub-card {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 1.25em;
+  flex-direction: column;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  margin-bottom: 1.75em;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
 
   .pub-card__teaser {
-    flex: 0 0 48%;
-    max-width: 48%;
-    border-radius: $border-radius;
+    width: 100%;
+    background: var(--global-bg-color, #f8f8f8);
+    border-bottom: 1px solid var(--global-border-color);
+    border-radius: 0;
     overflow: hidden;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.13);
-    background: var(--global-bg-color, #fff);
 
     a { display: block; }
     img {
       display: block;
       width: 100%;
       height: auto;
+      max-height: 280px;
       object-fit: contain;
+      object-position: center;
     }
   }
 
   .pub-card__body {
-    flex: 1 1 0;
+    padding: 1em 1.25em;
     min-width: 0;
   }
 
-  @media (max-width: 600px) {
-    flex-direction: column;
-
-    .pub-card__teaser {
-      flex: none;
-      max-width: 100%;
-      width: 100%;
-    }
+  /* archive__item-title inside pub-card needs top margin reset */
+  .archive__item-title {
+    margin-top: 0.25em;
   }
 }
 

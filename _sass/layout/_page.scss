@@ -434,3 +434,99 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/* ==========================================================================
+   Homepage — News Section
+   ========================================================================== */
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75em;
+    padding: 0.55em 0;
+    border-bottom: 1px dashed var(--global-border-color);
+    font-size: 0.96em;
+    line-height: 1.55;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.news-date {
+  flex: 0 0 auto;
+  display: inline-block;
+  min-width: 5.5em;
+  font-size: 0.78em;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  letter-spacing: 0.02em;
+  background: var(--global-border-color);
+  border-radius: 3px;
+  padding: 1px 6px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+/* ==========================================================================
+   Homepage — Publications grid (responsive, multi-card ready)
+   ========================================================================== */
+
+.pub-grid-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5em;
+  margin-bottom: 1em;
+}
+
+
+/* ==========================================================================
+   Homepage — Section header accent
+   ========================================================================== */
+
+.page__content h2 {
+  position: relative;
+  padding-left: 0.65em;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.12em;
+    bottom: 0.12em;
+    width: 3px;
+    background: var(--global-link-color, #52adc8);
+    border-radius: 2px;
+  }
+}
+
+
+/* ==========================================================================
+   Homepage — "See all" link button
+   ========================================================================== */
+
+.see-all-link {
+  display: inline-block;
+  margin-top: 0.25em;
+  font-size: 0.9em;
+  text-decoration: none !important;
+  color: var(--global-link-color) !important;
+  border: 1px solid var(--global-link-color);
+  border-radius: 3px;
+  padding: 2px 10px;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: var(--global-link-color);
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+}

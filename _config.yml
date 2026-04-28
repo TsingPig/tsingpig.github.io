@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Zhengyang Zhu / Home Page"
+title                    : "Home Page"
 title_separator          : "-"
 name                     : &name "Zhengyang Zhu"  # Update this with your name, this is the default if not overridden by a page
 description              : &description "Personal academic homepage of Zhengyang Zhu (朱正阳), Ph.D. student at Sun Yat-sen University, researching VR testing, software reliability, LLM4SE, and embodied intelligence."   # Update this with a general description of your site, this is the default if not overridden by a page
