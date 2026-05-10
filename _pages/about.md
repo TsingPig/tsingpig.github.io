@@ -8,8 +8,9 @@ redirect_from:
 ---
 
 I am Zhengyang Zhu (朱正阳), a first-year Ph.D. student in Software Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), supervised by Prof. [Zibin Zheng](https://scholar.google.com/citations?user=zWnsNrkAAAAJ&hl=en). I am currently a visiting student at Hong Kong Baptist University, advised by Dr. [Hong-Ning Dai](https://www.henrylab.net/), and I also conduct collaborative research at [Pengcheng Laboratory](https://www.pcl.ac.cn/).
+And I am also a member of [HenryLab-XR](https://github.com/HenryLab-XR).
 
-**Research interests:** Virtual reality, software reliability, LLM for software engineering (LLM4SE), embodied intelligence.
+**Research interests:** Extended Reality (XR), Software Reliability, LLM for software engineering (LLM4SE), Embodied Intelligence.
 
 **Contact:** [zhuzhy57@mail2.sysu.edu.cn](mailto:zhuzhy57@mail2.sysu.edu.cn) · [tsingpig@163.com](mailto:tsingpig@163.com)
 
