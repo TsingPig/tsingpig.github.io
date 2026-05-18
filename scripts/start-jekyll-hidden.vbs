@@ -1,2 +1,4 @@
 Set WshShell = CreateObject("WScript.Shell")
-WshShell.Run "cmd /k """ & "d:\--UnityProject\HenryLabXR\tsingpig.gihub.io\scripts\start-jekyll.bat" & """", 0, False
+Set FSO = CreateObject("Scripting.FileSystemObject")
+scriptDir = FSO.GetParentFolderName(WScript.ScriptFullName)
+WshShell.Run "cmd /k """ & scriptDir & "\start-jekyll.bat" & """", 0, False

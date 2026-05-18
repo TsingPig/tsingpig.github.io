@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Home Page"
 title_separator          : "-"
 name                     : &name "Zhengyang Zhu"  # Update this with your name, this is the default if not overridden by a page
-description              : &description "Personal academic homepage of Zhengyang Zhu (朱正阳), Ph.D. student at Sun Yat-sen University, researching VR testing, software reliability, LLM4SE, and embodied intelligence."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal academic homepage of Zhengyang Zhu (朱正阳), Ph.D. student at Sun Yat-sen University, member of InplusLab-Agent and HenryLab-XR, founder of RunminG-Lab, researching VR testing, software reliability, LLM4SE, and embodied intelligence."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://tsingpig.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Zhengyang Zhu (朱正阳)"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Student @ SYSU · VR Testing · LLM4SE · Embodied AI"
+  bio              : "Ph.D. Student @ SYSU"
   location         : "Zhuhai, China"
   employer         : "Sun Yat-sen University"
   uri              : # URL

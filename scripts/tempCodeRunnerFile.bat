@@ -1,0 +1,1 @@
+set "RUBY_HOME=D:\Ruby\Ruby33-x64"

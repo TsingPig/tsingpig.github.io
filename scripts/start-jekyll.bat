@@ -1,3 +1,8 @@
 @echo off
-cd /d "d:\--UnityProject\HenryLabXR\tsingpig.gihub.io"
-call C:\Users\TsingPig\Ruby32-x64\bin\bundle.bat exec jekyll serve --livereload
+setlocal
+set "RUBY_HOME=D:\Ruby\Ruby33-x64"
+set "PATH=%RUBY_HOME%\bin;%PATH%"
+pushd "%~dp0.."
+call "%RUBY_HOME%\bin\bundle.bat" exec jekyll serve --livereload --port 4000
+popd
+endlocal
