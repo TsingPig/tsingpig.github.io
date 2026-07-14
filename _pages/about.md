@@ -25,7 +25,7 @@ I am Zhengyang Zhu (朱正阳), a first-year Ph.D. student in Software Engineeri
 
 {% for post in site.publications reversed %}{% include archive-single-cv.html %}{% endfor %}
 
-[See all publications →](/publications/)
+<p><a class="see-all-link" href="/publications/" style="display:inline-block;margin-top:0.25em;padding:2px 10px;border:1px solid var(--global-link-color);border-radius:3px;color:var(--global-link-color);font-size:0.95rem;text-decoration:none;">See all publications &rarr;</a></p>
 
 ## Education
 
