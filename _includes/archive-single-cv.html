@@ -2,17 +2,18 @@
   {% if post.header.teaser %}
     {% capture cv_teaser %}{{ post.header.teaser }}{% endcapture %}
     <div class="pub-card-cv__teaser">
-      <a href="{{ base_path }}{{ post.url }}">
+      <a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">
         <img src="{% if cv_teaser contains '://' %}{{ cv_teaser }}{% else %}{{ cv_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title | escape }}">
       </a>
     </div>
   {% endif %}
   <div class="pub-card-cv__body">
     <p class="archive__item-full" style="margin:0;">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink"><strong>{{ post.title }}</strong></a><br/>
+      <a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}"><strong>{{ post.title }}</strong></a><br/>
       {{ post.authors }}.<br/>
       <i>{{ post.journal }}</i>, {{ post.month }} {{ post.year }}.{% if post.rank %} <span style="background:#d9534f;color:#fff;padding:1px 6px;border-radius:3px;font-size:0.8em;">{{ post.rank }}</span>{% endif %}
-      {% if post.paperurl %} &nbsp;<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+      {% if post.paperurl %} &nbsp;<a href="{{ post.paperurl }}">[IEEE]</a>{% endif %}
+      {% if post.arxivurl %} <a href="{{ post.arxivurl }}">[arXiv]</a>{% endif %}
       {% if post.slidesurl %} <a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
       {% if post.bibtexurl %} <a href="{{ post.bibtexurl }}">[BibTeX]</a>{% endif %}
       {% if post.codeurl %} <a href="{{ post.codeurl }}">[Code]</a>{% endif %}

@@ -27,7 +27,7 @@
     {% elsif include.type != "grid" and post.header.teaser %}
       {% capture pub_teaser %}{{ post.header.teaser }}{% endcapture %}
       <div class="pub-card__teaser">
-        <a href="{{ base_path }}{{ post.url }}">
+        <a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}">
           <img src=
             {% if pub_teaser contains "://" %}
               "{{ pub_teaser }}"
@@ -73,7 +73,7 @@
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">IEEE Xplore</a>{% if post.arxivurl %} | <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}</p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
     {% elsif post.citation and post.slidesurl %}
@@ -85,7 +85,7 @@
     {% elsif post.paperurl and post.bibtexurl %}
       <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p><a href="{{ post.paperurl }}">IEEE Xplore</a>{% if post.arxivurl %} | <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}</p>
     {% elsif post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.slidesurl %}
