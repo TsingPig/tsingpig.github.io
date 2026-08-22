@@ -175,7 +175,7 @@
 
     &:hover {
       background: var(--global-link-color);
-      color: #fff;
+      color: #fff !important;
       text-decoration: none;
     }
   }
