@@ -1,7 +1,7 @@
 <div class="archive__item-cv pub-card-cv" style="display:flex;align-items:flex-start;gap:1.25rem;margin:0.6rem 0 1.45rem;">
   {% if post.header.teaser %}
     {% capture cv_teaser %}{{ post.header.teaser }}{% endcapture %}
-    <div class="pub-card-cv__teaser" style="flex:0 0 42%;max-width:42%;border-radius:4px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,0.13);">
+    <div class="pub-card-cv__teaser"{% if post.header.teaser_width %} style="--pub-teaser-width:{{ post.header.teaser_width }};"{% endif %}>
       <a href="{% if post.link %}{{ post.link }}{% else %}{{ base_path }}{{ post.url }}{% endif %}" style="display:block;text-decoration:none;">
         <img src="{% if cv_teaser contains '://' %}{{ cv_teaser }}{% else %}{{ cv_teaser | prepend: '/images/' | prepend: base_path }}{% endif %}" alt="{{ post.title | escape }}" style="display:block;width:100%;height:auto;object-fit:contain;">
       </a>
@@ -14,8 +14,9 @@
       <span class="pub-card-cv__venue" style="display:inline;color:var(--global-text-color-light);"><i>{{ post.journal }}</i>, {{ post.month }} {{ post.year }}.</span>
       {% if post.rank %} <span class="pub-card-cv__rank" style="display:inline-block;margin-left:0.4rem;padding:1px 6px;border-radius:3px;background:#d9534f;color:#fff;font-size:0.8em;font-weight:700;line-height:1.45;">{{ post.rank }}</span>{% endif %}
       <span class="pub-card-cv__links" style="display:block;margin-top:0.45rem;">
-        {% if post.paperurl %}<a class="pub-card-cv__link" href="{{ post.paperurl }}" style="display:inline-block;margin:0 0.35rem 0.35rem 0;padding:2px 8px;border:1px solid var(--global-link-color);border-radius:3px;color:var(--global-link-color);font-size:0.78rem;font-weight:600;line-height:1.4;text-decoration:none;">IEEE Xplore</a>{% endif %}
-        {% if post.arxivurl %}<a class="pub-card-cv__link" href="{{ post.arxivurl }}" style="display:inline-block;margin:0 0.35rem 0.35rem 0;padding:2px 8px;border:1px solid var(--global-link-color);border-radius:3px;color:var(--global-link-color);font-size:0.78rem;font-weight:600;line-height:1.4;text-decoration:none;">arXiv</a>{% endif %}
+        {% if post.paperurl %}<a class="pub-card-cv__link" href="{{ post.paperurl }}" style="display:inline-block;margin:0 0.35rem 0.35rem 0;padding:2px 8px;border:1px solid var(--global-link-color);border-radius:3px;color:var(--global-link-color);font-size:0.78rem;font-weight:600;line-height:1.4;text-decoration:none;">{{ post.paperlabel | default: "IEEE Xplore" }}</a>{% endif %}
+        {% if post.arxivurl %}<a class="pub-card-cv__link" href="{{ post.arxivurl }}" style="display:inline-block;margin:0 0.35rem 0.35rem 0;padding:2px 8px;border:1px solid var(--global-link-color);border-radius:3px;color:var(--global-link-color);font-size:0.78rem;font-weight:600;line-height:1.4;text-decoration:none;">{{ post.arxivlabel | default: "arXiv" }}</a>{% endif %}
+        {% if post.projecturl %}<a class="pub-card-cv__link" href="{{ post.projecturl }}" style="display:inline-block;margin:0 0.35rem 0.35rem 0;padding:2px 8px;border:1px solid var(--global-link-color);border-radius:3px;color:var(--global-link-color);font-size:0.78rem;font-weight:600;line-height:1.4;text-decoration:none;">Project</a>{% endif %}
       </span>
       {% if post.slidesurl %} <a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
       {% if post.bibtexurl %} <a href="{{ post.bibtexurl }}">[BibTeX]</a>{% endif %}

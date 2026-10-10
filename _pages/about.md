@@ -9,12 +9,13 @@ redirect_from:
 
 I am Zhengyang Zhu (朱正阳), a first-year Ph.D. student in Software Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), supervised by Prof. [Zibin Zheng](https://scholar.google.com/citations?user=zWnsNrkAAAAJ&hl=en). I am currently a visiting student at Hong Kong Baptist University, advised by Dr. [Hong-Ning Dai](https://www.henrylab.net/), and I recently joined [InplusLab-Agent](https://github.com/InplusLab-Agent) at the School of Software Engineering, SYSU. I also conduct collaborative research at [Pengcheng Laboratory](https://www.pcl.ac.cn/). I am also a member of [HenryLab-XR](https://henrylab-xr.github.io/) and the founder of [RunminG-Lab](https://github.com/RunminG-Lab).
 
-**Research interests:** Extended Reality (XR), LLM for software engineering (LLM4SE), Embodied AI.
+**Research interests:** Extended Reality (XR), LLM for software engineering (LLM4SE), AI Agents (coding agents and agent security), Embodied AI.
 
 **Contact:** [zhuzhy57@mail2.sysu.edu.cn](mailto:zhuzhy57@mail2.sysu.edu.cn) · [tsingpig@163.com](mailto:tsingpig@163.com)
 
 ## News
 
+- **2026-10** &nbsp;·&nbsp; Our preprint *[HarnessSecurity-Bench: Do Security Mechanisms Really Protect Coding Agent Harnesses?](https://arxiv.org/abs/2610.07639)* is available on arXiv.
 - **2026-05** &nbsp;·&nbsp; Joined [InplusLab-Agent](https://github.com/InplusLab-Agent) at the School of Software Engineering, Sun Yat-sen University.
 - **2026-05** &nbsp;·&nbsp; Founded [RunminG-Lab](https://github.com/RunminG-Lab).
 - **2025-09** &nbsp;·&nbsp; Our paper *VRExplorer* has been accepted to **ASE 2025** (CCF-A).

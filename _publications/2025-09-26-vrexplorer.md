@@ -13,9 +13,11 @@ rank: "CCF-A"
 venue: 'the 40th IEEE/ACM Automated Software Engineering Conference (ASE 2025)'
 link: 'https://ieeexplore.ieee.org/document/11334628'
 paperurl: 'https://ieeexplore.ieee.org/document/11334628'
-arxivurl: 'https://arxiv.org/abs/2607.10174'
+arxivurl: 'https://arxiv.org/pdf/2607.10174'
+arxivlabel: 'PDF'
 header:
   teaser: "publications/vrexplorer-teaser.png"
+  teaser_width: "46%"
 citation: 'Zhengyang Zhu, Hong-Ning Dai, Hanyang Guo, Zeqin Liao, Zibin Zheng. &quot;VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual Reality Scenes.&quot; <i>the 40th IEEE/ACM Automated Software Engineering Conference (ASE 2025)</i>.'
 ---
 
