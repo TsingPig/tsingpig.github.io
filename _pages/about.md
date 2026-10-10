@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Zhengyang Zhu (朱正阳), a first-year Ph.D. student in Software Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), supervised by Prof. [Zibin Zheng](https://scholar.google.com/citations?user=zWnsNrkAAAAJ&hl=en). I am currently a visiting student at Hong Kong Baptist University, advised by Dr. [Hong-Ning Dai](https://www.henrylab.net/), and I recently joined [InplusLab-Agent](https://github.com/InplusLab-Agent) at the School of Software Engineering, SYSU. I also conduct collaborative research at [Pengcheng Laboratory](https://www.pcl.ac.cn/). I am also a member of [HenryLab-XR](https://henrylab-xr.github.io/) and the founder of [RunminG-Lab](https://github.com/RunminG-Lab).
+I am Zhengyang Zhu (朱正阳), a second-year Ph.D. student in Software Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/), supervised by Prof. [Zibin Zheng](https://scholar.google.com/citations?user=zWnsNrkAAAAJ&hl=en). I am currently a visiting student at Hong Kong Baptist University, advised by Dr. [Hong-Ning Dai](https://www.henrylab.net/), and I recently joined [InplusLab-Agent](https://github.com/InplusLab-Agent) at the School of Software Engineering, SYSU. I also conduct collaborative research at [Pengcheng Laboratory](https://www.pcl.ac.cn/). I am also a member of [HenryLab-XR](https://henrylab-xr.github.io/) and the founder of [RunminG-Lab](https://github.com/RunminG-Lab).
 
 **Research interests:** Extended Reality (XR), LLM for software engineering (LLM4SE), AI Agents (coding agents and agent security), Embodied AI.
 
